@@ -35,4 +35,17 @@ img {
 h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/roboto/Roboto-Black.ttf');
 }
