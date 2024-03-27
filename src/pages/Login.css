@@ -38,6 +38,11 @@ h1 {
     letter-spacing: 2px;
 }
 
+p {
+    color: #BDBBBB;
+    font-family: 'Inter', sans-serif;
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
