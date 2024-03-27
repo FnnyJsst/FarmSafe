@@ -2,19 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    
     background-color: #141718;
+    height: 100vh;
+    overflow: hidden;
 }
 
 
 div {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .gray-section {
     background-color: #232627;
     width: 60%;
-    height: 100vh;
-    border-top-left-radius: 3.5%;
-    border-bottom-left-radius: 3.5%;
+    height: 40.5%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+img {
+    height: 37.5%;
+    margin: 2%;
+    border-radius: 25px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
