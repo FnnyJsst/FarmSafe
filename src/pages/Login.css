@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141718;
+}
+
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.gray-section {
+    background-color: #232627;
+    width: 60%;
+    height: 100vh;
+    border-top-left-radius: 3.5%;
+    border-bottom-left-radius: 3.5%;
+}
