@@ -4,20 +4,19 @@ import Buttonlarge from '../components/Buttonlarge';
 
 function Login () {
  return (
-    <div>
+    <>
         <section className='gray-section'>
-            <div className='login-form'>
+            <form>
                 <h1>Get started</h1>
-                <form>
-                    <Forminput1 />
-                    <Forminput1 />
-                    <Buttonlarge />
-                </form>
-                <p>Already have an account? Sign in</p>
-            </div>
+                <Forminput1 />
+                <Forminput1 />
+                <Buttonlarge />
+            </form>
+            <p>Already have an account? Sign in</p>
         </section>
-        <img src='/src/assets/corn-field.jpg'/>
-    </div>
+        <img src='/src/assets/field.jpg'/>   
+        <img className='logo' src='/src/assets/Rectangle 6.png'/> 
+    </>
  )
 }
 

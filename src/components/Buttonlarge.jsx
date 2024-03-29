@@ -1,3 +1,5 @@
+import './Buttonlarge.css';
+
 export default function Buttonlarge() {
     return (
         <div>
