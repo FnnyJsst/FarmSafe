@@ -8,8 +8,8 @@ function Login () {
         <section className='gray-section'>
             <form>
                 <h1>Get started</h1>
-                <Forminput1 />
-                <Forminput1 />
+                <Forminput1 placeholder="e-mail address"/>
+                <Forminput1 placeholder="password"/>
                 <Buttonlarge />
             </form>
             <p>Already have an account? Sign in</p>

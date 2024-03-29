@@ -4,4 +4,12 @@
     height: 50px;
     margin-top: 12%;
     border-radius: 20px;
-}   
+    border: none;
+}  
+
+.form-input-1::placeholder {
+    color: gray;
+    font-size: 16px;
+    opacity: 0.5;
+    padding-left: 5%;
+}
